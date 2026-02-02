@@ -220,3 +220,5 @@ __marimo__/
 
 # Ignore VS Code settings folder (optional—uncomment to enable)
 .vscode
+
+*.mp4
