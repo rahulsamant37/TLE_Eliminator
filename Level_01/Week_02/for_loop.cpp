@@ -23,7 +23,13 @@ int main() {
         cout << a[i] <<' ';
     }
     cout << "This is auto for loop" <<'\n';
+    // `for (auto i : a)` → **copies each element**; changes don’t affect `a`.
     for (auto i: a) {
+        cout << i << " ";
+    }
+    // `for (auto& i : a)` → **references each element**; changes modify `a`.
+    // `for (const auto& i : a)` → **references each element read-only**; no copies, no modification.
+    for (auto &i: a) {
         cout << i << " ";
     }
 }
