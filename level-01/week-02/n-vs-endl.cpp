@@ -7,20 +7,20 @@ int main() {
 
     // Using endl
     cout << "Using endl:" << endl;
-    cout << "Enter two numbers: ";
+    cout << "Enter two numbers: " << endl;
     int a, b;
     cin >> a >> b;
     cout << "Sum = " << a + b << endl;
 
-    cout << "Enter third number: ";
+    cout << "Enter third number: " <<endl;
     int c;
     cin >> c;
     cout << "Total = " << a + b + c << endl;
 
-    cout << "\n----------------------\n\n";
+    cout << "\n----------------------\n\n" << endl;
 
     // Using '\n'
-    cout << "Using \\n:\n";
+    cout << "Using \\n:\n" << endl;
     cout << "Enter two numbers: ";
     int x, y;
     cin >> x >> y;

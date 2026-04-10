@@ -1,0 +1,9 @@
+Using endl:
+Enter two numbers: Sum = 3
+Enter third number: Total = 5
+
+----------------------
+
+Using \n:
+Enter two numbers: Sum = 3
+Enter third number: Total = 5
