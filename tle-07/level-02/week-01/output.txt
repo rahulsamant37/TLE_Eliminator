@@ -1,0 +1,5 @@
+Normal Binary Search
+0Now testing lower-bound
+5 present at 0x7ffe960125f8
+now let's see how to access index
+2
